@@ -1,0 +1,32 @@
+* {
+    font-family: monospace;
+}
+
+a {
+    color: #f6f5f5;
+}
+
+nav {
+    background: #276678;
+    padding: 20px;
+}
+
+.coluna{
+    background: #1687a7;
+    color: #f6f5f5;
+    margin: 20px;
+    padding: 20px;
+    width: 25%; /*Vai ocupar 25% da largura da página*/
+}
+
+.flexivel {
+    display: flex;
+}
+
+.linha {
+    display: inline-block;
+}
+
+.bloco {
+    display: block;
+}

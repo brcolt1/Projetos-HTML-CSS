@@ -1,0 +1,30 @@
+/*Seletor universal*/
+* {
+    font-family: monospace;
+}
+
+/*Seletor por id*/
+#teste {
+    color: gray;
+}
+
+/*Seletor por classe*/
+.citacao {
+    font-size: large;
+    color: blue;
+    font-style: italic;
+}
+
+.fundo {
+    background: rgba(255, 99, 71, 1);
+}
+
+p {
+    margin-left: 20px;
+    /*margin: 50px 100px; => y e x*/
+    /*margin: 100px 200px 10px 30px;*/
+    /*margin: 50px;*/
+
+    /*Margem interna*/
+    padding: 10px;
+}

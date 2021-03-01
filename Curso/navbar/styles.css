@@ -1,0 +1,47 @@
+nav {
+    background: #222831;
+    padding: 10px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    background: #00adb5;
+    color: #fcf8ec;
+    padding: 10px 30px;
+
+    display: inline-block;
+    text-decoration: none; /*Remove o underline de um link, por exemplo*/
+}
+
+/*O que acontece quando pomos o mouse em cima do item*/
+.nav-item:hover {
+    background: #3f72af;
+}
+
+/*O que acontece quando clicamos no item*/
+.nav-item:active {
+    background: #3282b8;
+}
+
+.menu {
+    display: none;
+}
+
+/*Media query*/
+@media(max-width: 600px){
+    nav {
+        flex-direction: column;
+        margin: 1px;
+    }
+    .nav-item {
+        margin: 5px 0px;
+    }
+    .menu {
+        display: inline-block;
+    }
+    .visible {
+        display: none;
+    }
+}

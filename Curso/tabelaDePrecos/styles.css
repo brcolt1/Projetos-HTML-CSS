@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    font-weight: 300;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+
+    background: salmon;
+    color: #fff;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid salmon;
+    border-radius: 15px;
+}
+
+a:hover {
+    background: rgb(255, 69, 48);
+    border-color: rgb(255, 69, 48);
+}
+
+a:active {
+    background: rgb(184, 51, 36);
+    border-color: rgb(184, 51, 36);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /*Estabelece que o items flexíveis irão se agrupar se necessário*/
+}
+
+.centralized {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.card {
+    background: rgb(228, 228, 228);
+    color: #333;
+
+    width: 23%; /*Inclui padding e border no cálculo de width*/
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px #888;
+
+    box-sizing: border-box; /*Para o cálculo de width e height iremos incluir os valores de padding e border*/
+}
+
+.price {
+    font-size: 50px;
+    color: #00dac7;
+}
+
+@media(max-width: 1070px) {
+    .card {
+        width: 46%;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 750px) {
+    .card {
+        width: 92%;
+        margin-bottom: 20px;
+    }
+}
